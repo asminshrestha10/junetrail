@@ -1,0 +1,22 @@
+{
+  "id": "news-XXX",
+  "title": "Your News Title",
+  "slug": "your-news-title",
+  "category": "News",
+  "seoTitle": "Your News Title | JUNE TRAIL",
+  "metaDescription": "Short SEO summary for this article.",
+  "excerpt": "Short summary shown on the homepage and article cards.",
+  "featuredImage": "images/news/news-XXX.jpg",
+  "imageAlt": "Description of the news image for accessibility and SEO.",
+  "date": "2026-09-01",
+  "author": "Your Name",
+  "readTime": "4 min read",
+  "content": [
+    "Write your first paragraph here.",
+    "Write your second paragraph here.",
+    "Write your third paragraph here."
+  ],
+  "tags": ["news", "travel", "australia"],
+  "featured": false,
+  "published": true
+}

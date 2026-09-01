@@ -1,0 +1,21 @@
+{
+  "id": "product-XXX",
+  "name": "Product Name",
+  "slug": "product-name",
+  "brand": "Brand Name",
+  "category": "Accessories",
+  "price": "$299",
+  "rating": "4.8",
+  "seoTitle": "Product Name | JUNE TRAIL",
+  "metaDescription": "Short SEO description for this product review.",
+  "featuredImage": "images/products/product-XXX.jpg",
+  "imageAlt": "Product image for this review.",
+  "description": "Short summary of the product.",
+  "pros": ["Good value", "Reliable", "Easy to install"],
+  "cons": ["Higher cost", "Requires planning"],
+  "engineeringOpinion": "Brief technical opinion about why the product matters.",
+  "amazonUrl": "https://www.amazon.com/gp/search/?keywords=product%20name",
+  "affiliateDisclosure": "Affiliate disclosure: this placeholder Amazon link will be replaced later.",
+  "featured": false,
+  "published": true
+}

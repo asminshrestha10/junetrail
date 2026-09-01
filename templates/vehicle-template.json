@@ -1,0 +1,30 @@
+{
+  "id": "vehicle-XXX",
+  "name": "Vehicle Name",
+  "slug": "vehicle-name",
+  "brand": "Brand Name",
+  "model": "Model Name",
+  "year": 2026,
+  "price": "$60,000",
+  "engine": "2.0L petrol",
+  "power": "150 kW",
+  "torque": "350 Nm",
+  "transmission": "8-speed automatic",
+  "drivetrain": "4WD",
+  "towingCapacity": "3,000 kg",
+  "payload": "800 kg",
+  "seoTitle": "Vehicle Name | JUNE TRAIL",
+  "metaDescription": "Short SEO description for this vehicle.",
+  "featuredImage": "images/vehicles/vehicle-XXX.jpg",
+  "imageAlt": "Vehicle image for this review.",
+  "gallery": ["images/vehicles/vehicle-XXX.jpg"],
+  "description": "Short summary shown in cards and listings.",
+  "specifications": {
+    "Engine": "2.0L petrol",
+    "Transmission": "8-speed automatic",
+    "Drive": "4WD",
+    "Towing": "3,000 kg"
+  },
+  "featured": false,
+  "published": true
+}

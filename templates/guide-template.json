@@ -1,0 +1,21 @@
+{
+  "id": "guide-XXX",
+  "title": "Your Guide Title",
+  "slug": "your-guide-title",
+  "category": "Guides",
+  "seoTitle": "Your Guide Title | JUNE TRAIL",
+  "metaDescription": "Short SEO summary for this guide.",
+  "excerpt": "Short summary shown on guide cards.",
+  "featuredImage": "images/guides/guide-XXX.jpg",
+  "imageAlt": "Guide image for this article.",
+  "date": "2026-09-01",
+  "author": "Your Name",
+  "content": [
+    "Write the first section here.",
+    "Write the second section here.",
+    "Write the final section here."
+  ],
+  "tags": ["guide", "4x4", "travel"],
+  "featured": false,
+  "published": true
+}

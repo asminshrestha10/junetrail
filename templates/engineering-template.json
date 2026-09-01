@@ -1,0 +1,25 @@
+{
+  "id": "engineering-XXX",
+  "title": "Your Engineering Article Title",
+  "slug": "your-engineering-article-title",
+  "category": "Engineering",
+  "seoTitle": "Your Engineering Article Title | JUNE TRAIL",
+  "metaDescription": "Short SEO summary for this engineering article.",
+  "excerpt": "Short summary shown in lists and cards.",
+  "featuredImage": "images/engineering/engineering-XXX.jpg",
+  "imageAlt": "Engineering article image.",
+  "date": "2026-09-01",
+  "author": "Your Name",
+  "content": [
+    "Explain the concept clearly.",
+    "Add a second explanation paragraph.",
+    "Add a third paragraph with practical examples."
+  ],
+  "engineeringDetails": {
+    "Focus": "Vehicle setup",
+    "Why It Matters": "Better real-world performance"
+  },
+  "tags": ["engineering", "suspension", "capacity"],
+  "featured": false,
+  "published": true
+}
