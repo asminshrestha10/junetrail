@@ -1,0 +1,22 @@
+{
+  "id": "blog-XXX",
+  "title": "Your Blog Title",
+  "slug": "your-blog-title",
+  "category": "Blog",
+  "seoTitle": "Your Blog Title | JUNE TRAIL",
+  "metaDescription": "Short SEO description for this blog article.",
+  "excerpt": "Short summary shown on blog cards.",
+  "featuredImage": "images/blogs/blog-XXX.jpg",
+  "imageAlt": "Blog image for this article.",
+  "date": "2026-09-01",
+  "author": "Your Name",
+  "readTime": "5 min read",
+  "content": [
+    "Write the first paragraph here.",
+    "Write the second paragraph here.",
+    "Write the final paragraph here."
+  ],
+  "tags": ["blog", "travel", "4x4"],
+  "featured": false,
+  "published": true
+}

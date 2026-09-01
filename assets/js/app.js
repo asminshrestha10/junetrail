@@ -1,6 +1,7 @@
 const siteData = window.junetrailData || {};
 const contentTypeMap = {
   news: 'data/news.json',
+  blogs: 'data/blogs.json',
   vehicles: 'data/vehicles.json',
   products: 'data/products.json',
   guides: 'data/guides.json',
@@ -9,6 +10,7 @@ const contentTypeMap = {
 
 const categoryPlaceholders = {
   news: 'images/news/placeholder.svg',
+  blogs: 'images/blogs/placeholder.svg',
   vehicles: 'images/vehicles/placeholder.svg',
   products: 'images/products/placeholder.svg',
   guides: 'images/guides/placeholder.svg',
@@ -35,6 +37,7 @@ function formatDate(dateString) {
 function getContentTypeLabel(type) {
   const labels = {
     news: 'News',
+    blogs: 'Blogs',
     vehicles: 'Vehicles',
     products: 'Product Reviews',
     guides: 'Guides',
