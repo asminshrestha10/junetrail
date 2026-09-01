@@ -89,5 +89,31 @@
     "tags": ["electrical", "camping", "power"],
     "featured": false,
     "published": true
+  },
+  {
+    "id": "news-006",
+    "title": "5 Things to Check Before Buying a Used 4x4 in Australia",
+    "slug": "5-things-to-check-before-buying-a-used-4x4-in-australia",
+    "category": "News",
+    "seoTitle": "5 Things to Check Before Buying a Used 4x4 in Australia | JUNE TRAIL",
+    "metaDescription": "A practical checklist for used 4x4 buyers in Australia, covering rust, servicing, tyres, suspension and ownership history.",
+    "excerpt": "Buying a used 4x4 in Australia can be a smart move, but a few inspection points can save thousands in avoidable repairs.",
+    "featuredImage": "images/news/used-4x4-buying-guide.jpg",
+    "imageAlt": "A used 4x4 vehicle being inspected before purchase in Australia.",
+    "date": "2026-09-01",
+    "author": "JUNE TRAIL",
+    "readTime": "6 min read",
+    "content": [
+      "A used 4x4 can offer excellent value, but the difference between a good buy and a costly mistake often comes down to a few straightforward checks. In Australia, where rough roads, salt exposure and heavy towing are common, buyers need to look beyond the badge and the paintwork.",
+      "The first area to inspect is rust and body condition. A vehicle that looks clean from a distance can still hide serious corrosion around the tray, underbody, rear guards, door sills and suspension mounts. If the 4x4 has lived a hard life in regional or coastal conditions, corrosion is not just cosmetic—it can affect structural integrity and future repair costs.",
+      "Service history matters just as much as the tyre tread. A well-kept 4x4 with documented maintenance is usually a safer buy than one with a shiny exterior and no evidence of careful upkeep. Ask for the logbook, check timing belt or transmission service intervals where relevant, and pay close attention to any gaps in maintenance or obvious signs of skipped servicing.",
+      "Tyres, suspension and wheel alignment are easy to overlook, but they tell a clear story about how the vehicle has been used. Uneven tyre wear, excessive toe wear or poor steering feel can indicate hard off-road use, poor maintenance or more serious suspension damage. For a genuine 4x4, the condition of the tyres and the chassis setup is often a better guide than the sticker price alone.",
+      "It is also worth checking the drivetrain and underbody for evidence of abuse. Look for fresh oil leaks, damaged CV boots, worn bushings, patchy underbody protection, and any signs that the vehicle has been heavily modified without proper engineering. For buyers planning tours, towing or regular dirt-road use, drivetrain condition is one of the biggest indicators of real-world capability.",
+      "Finally, do not overlook the vehicle's ownership history and what it was used for. A ute that spent most of its life on quiet suburban roads is a different proposition from one that was used for remote work, towing, or heavy off-road travel. Ask whether it was used for towing, fleet work, or repeated bush driving, because those use patterns can impact everything from the driveline to the cabin wear and resale value.",
+      "A good used 4x4 is not just about the right price. It is about buying a vehicle that has been maintained honestly, used sensibly and matched to the type of driving you actually plan to do. If you check those fundamentals early, the buying process becomes much safer and far more confident."
+    ],
+    "tags": ["used 4x4", "buying guide", "inspection", "Australia", "rust", "suspension"],
+    "featured": false,
+    "published": true
   }
 ]
