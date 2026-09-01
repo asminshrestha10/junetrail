@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JUNE TRAIL is an Australian automotive magazine featuring 4x4 vehicles, utes, product reviews, guides, engineering stories and news."
+    />
+    <title>JUNE TRAIL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a href="index.html" class="brand" aria-label="JUNE TRAIL home">JUNE TRAIL</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="#news">News</a>
+          <a href="#vehicles">Vehicles</a>
+          <a href="#products">Products</a>
+          <a href="#guides">Guides</a>
+          <a href="#engineering">Engineering</a>
+          <a href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container hero-grid">
+          <div id="featured-story" class="feature-story" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="news" class="content-section">
+        <div class="container section-header-row">
+          <div>
+            <p class="eyebrow">Latest coverage</p>
+            <h2>Latest News</h2>
+          </div>
+          <a href="article.html?type=news&id=news-001" class="text-link">Read the lead story</a>
+        </div>
+        <div id="latest-news-list" class="card-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="vehicles" class="content-section section-alt">
+        <div class="container section-header-row">
+          <div>
+            <p class="eyebrow">Road-tested</p>
+            <h2>Featured Vehicles</h2>
+          </div>
+        </div>
+        <div id="featured-vehicles-list" class="card-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="products" class="content-section">
+        <div class="container section-header-row">
+          <div>
+            <p class="eyebrow">Gear and accessories</p>
+            <h2>Product Reviews</h2>
+          </div>
+        </div>
+        <div id="product-review-list" class="card-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="guides" class="content-section section-alt">
+        <div class="container section-header-row">
+          <div>
+            <p class="eyebrow">Practical advice</p>
+            <h2>Guides</h2>
+          </div>
+        </div>
+        <div id="guide-list" class="card-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="engineering" class="content-section">
+        <div class="container section-header-row">
+          <div>
+            <p class="eyebrow">Deep technical insight</p>
+            <h2>Engineering</h2>
+          </div>
+        </div>
+        <div id="engineering-list" class="card-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="newsletter-section">
+        <div class="container newsletter-box">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>Get the latest 4x4 and ute stories</h2>
+          </div>
+          <form class="newsletter-form" aria-label="Newsletter signup">
+            <label class="sr-only" for="newsletter-email">Email address</label>
+            <input id="newsletter-email" type="email" placeholder="Email address" />
+            <button type="submit">Join the newsletter</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="about" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>JUNE TRAIL</h3>
+          <p>
+            Professional automotive journalism for enthusiasts who live for remote tracks,
+            capable vehicles and practical gear.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#news">News</a></li>
+            <li><a href="#vehicles">Vehicles</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#guides">Guides</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#engineering">Engineering</a></li>
+            <li><a href="article.html?type=vehicles&id=vehicle-001">Featured vehicles</a></li>
+            <li><a href="article.html?type=guides&id=guide-001">Buying guides</a></li>
+            <li><a href="article.html?type=products&id=product-001">Reviews</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 JUNE TRAIL. Built for Australia’s road and track culture.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
