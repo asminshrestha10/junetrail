@@ -365,6 +365,14 @@ function renderHomePage() {
     .map((item) => createCard(item, 'news'))
     .join('');
 
+  const blogList = getFeaturedOrFallback(siteData.blogs || [], 4);
+  const blogContainer = document.getElementById('blog-list');
+  if (blogContainer) {
+    blogContainer.innerHTML = blogList
+      .map((item) => createCard(item, 'blogs'))
+      .join('');
+  }
+
   const vehicleList = getFeaturedOrFallback(siteData.vehicles || [], 4);
   document.getElementById('featured-vehicles-list').innerHTML = vehicleList
     .map((item) => createCard(item, 'vehicles'))
@@ -380,7 +388,7 @@ function renderHomePage() {
     .map((item) => createCard(item, 'guides'))
     .join('');
 
-  const engineeringList = getFeaturedOrFallback(siteData.engineering || [], 3);
+  const engineeringList = getFeaturedOrFallback(siteData.engineering || [], 4);
   document.getElementById('engineering-list').innerHTML = engineeringList
     .map((item) => createCard(item, 'engineering'))
     .join('');
