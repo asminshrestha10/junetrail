@@ -1,0 +1,61 @@
+[
+  {
+    "id": "engineering-001",
+    "title": "Understanding 4x4 low-range gearing without the jargon",
+    "slug": "understanding-4x4-low-range-gearing-without-jargon",
+    "category": "Engineering",
+    "excerpt": "Low-range gearing exists to make difficult terrain manageable, not just more dramatic.",
+    "featuredImage": "images/engineering/engineering-001.jpg",
+    "date": "2026-08-11",
+    "content": [
+      "Low-range gearing is one of the most valuable tools in a 4x4, but it is also one of the least understood. In simple terms, it changes the engine-to-wheel ratio so the vehicle can generate more pulling force at lower speed.",
+      "That matters when you need to climb steep grades, crawl over rocks or deal with slippery terrain where momentum is unpredictable. It reduces stress on the driveline while giving the driver more control.",
+      "The main idea is not to create more power; it is to give the vehicle more mechanical leverage."
+    ],
+    "engineeringDetails": {
+      "Focus": "Low-range operation",
+      "Why It Matters": "Better torque control on steep or rough terrain"
+    },
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "engineering-002",
+    "title": "Why suspension design matters more than tyre size alone",
+    "slug": "why-suspension-design-matters-more-than-tyre-size-alone",
+    "category": "Engineering",
+    "excerpt": "A well-sorted chassis often delivers more real capability than bigger tyres without the supporting setup.",
+    "featuredImage": "images/engineering/engineering-002.jpg",
+    "date": "2026-07-22",
+    "content": [
+      "Tyres are the most visible part of a 4x4 setup, but they are only one part of the full system. Suspension geometry, dampers, articulation and vehicle weight distribution all determine how that tyre performs on the ground.",
+      "A bigger tyre can help, but if the suspension is poorly matched or the vehicle is operating outside its design range, the result is often more noise, less control and worse real-world confidence.",
+      "That is why stable engineering decisions are usually about matching components to the intended use rather than chasing individual headline numbers."
+    ],
+    "engineeringDetails": {
+      "Focus": "Suspension geometry",
+      "Why It Matters": "Better control and traction in real terrain"
+    },
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "engineering-003",
+    "title": "The engineering behind long-range touring fuel and efficiency decisions",
+    "slug": "engineering-long-range-touring-fuel-efficiency-decisions",
+    "category": "Engineering",
+    "excerpt": "Efficiency in remote travel is not only about the engine; it is about a system that works with the vehicle and terrain.",
+    "featuredImage": "images/engineering/engineering-003.jpg",
+    "date": "2026-07-05",
+    "content": [
+      "Long-range touring rewards careful engineering decisions. Fuel efficiency is shaped by gearing, drag, tyre choice, auxiliary loads and how the vehicle is loaded before leaving town.",
+      "A vehicle that is heavy, over-tyred or poorly loaded may spend more time and fuel overcoming inefficiency than it ever saves in a short-term decision. Smart touring setups favour balance and realistic operating ranges."
+    ],
+    "engineeringDetails": {
+      "Focus": "Efficiency and load management",
+      "Why It Matters": "Lower fuel use and safer touring range"
+    },
+    "featured": false,
+    "published": true
+  }
+]

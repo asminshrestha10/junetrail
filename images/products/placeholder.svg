@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#17181a"/>
+  <rect x="350" y="100" width="500" height="600" rx="26" fill="#2a2f37"/>
+  <rect x="430" y="200" width="340" height="260" rx="18" fill="#dfe7f2" opacity="0.9"/>
+  <rect x="440" y="520" width="320" height="28" rx="12" fill="#dfe7f2" opacity="0.78"/>
+  <text x="600" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" fill="#ffffff" font-weight="700">PRODUCT</text>
+</svg>

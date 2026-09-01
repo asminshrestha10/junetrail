@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#1b1d22"/>
+  <rect x="170" y="180" width="860" height="440" rx="28" fill="#2a323d"/>
+  <path d="M250 512 L400 330 L575 430 L720 310 L930 512" stroke="#dfe7f2" stroke-width="26" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <circle cx="400" cy="330" r="18" fill="#dfe7f2"/>
+  <circle cx="575" cy="430" r="18" fill="#dfe7f2"/>
+  <circle cx="720" cy="310" r="18" fill="#dfe7f2"/>
+  <text x="600" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" fill="#ffffff" font-weight="700">ENGINEERING</text>
+</svg>

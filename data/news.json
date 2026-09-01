@@ -1,0 +1,93 @@
+[
+  {
+    "id": "news-001",
+    "title": "The latest Australian 4x4 market trends are pushing buyers towards more capable touring rigs",
+    "slug": "latest-australian-4x4-market-trends",
+    "category": "News",
+    "excerpt": "From alloy tray upgrades to dual-battery systems, buyers are prioritising long-distance touring capability over flashier showroom features.",
+    "featuredImage": "images/news/news-001.jpg",
+    "date": "2026-08-26",
+    "author": "Maya Clarke",
+    "readTime": "6 min read",
+    "content": [
+      "Australian off-road buyers are increasingly equipping vehicles around real-world touring needs rather than cosmetic upgrades. The growth in remote travel and long-weekend expeditions has shifted attention toward reliability, payload efficiency and ground clearance.",
+      "Manufacturers and aftermarket brands are responding with more sophisticated touring packs, cargo solutions and recovery hardware. In many cases, buyers want a vehicle that can handle corrugations, beach access and heavy gear without compromising everyday comfort.",
+      "The result is a more practical market, where 4x4 capability remains a major decision driver even as urban drivers show interest in rugged styling and utility-first design."
+    ],
+    "tags": ["market", "touring", "buyers"],
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "news-002",
+    "title": "Ute buyers are now choosing towing and payload over pure diesel output",
+    "slug": "ute-buyers-choosing-towing-payload",
+    "category": "News",
+    "excerpt": "A growing share of buyers are prioritising real-world capability, smoother on-road manners and genuine work utility.",
+    "featuredImage": "images/news/news-002.jpg",
+    "date": "2026-08-22",
+    "author": "Aiden Ross",
+    "readTime": "4 min read",
+    "content": [
+      "The utility market has seen a subtle but important shift as buyers ask tougher questions about towing capacity, payload balance and comfort. Those features matter more than headline horsepower for everyday owners who use a ute for both work and travel.",
+      "Dealer conversations increasingly centre on chassis refinement, safety technology and practical accessories. Buyers are also more aware of the long-term cost of running a ute, from servicing to fuel use and compliance requirements."
+    ],
+    "tags": ["utes", "towing", "payload"],
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "news-003",
+    "title": "Remote touring groups are reshaping the equipment market for expedition accessories",
+    "slug": "remote-touring-groups-reshaping-equipment-market",
+    "category": "News",
+    "excerpt": "The rise of extended outback travel is changing what accessories sell most often.",
+    "featuredImage": "images/news/news-003.jpg",
+    "date": "2026-08-18",
+    "author": "Harper James",
+    "readTime": "5 min read",
+    "content": [
+      "Expedition-style travel has broadened from hardcore off-roading into a mainstream touring culture across regional Australia. This has created fresh demand for more durable storage, longer-range lighting and efficient power solutions.",
+      "Accessory brands are leaning into products that support self-sufficient travel and remote communication, with robust design language and easier installation becoming key selling points."
+    ],
+    "tags": ["expedition", "gear", "travel"],
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "news-004",
+    "title": "Fleet managers are rethinking work-ready 4x4s as diesel prices and compliance costs rise",
+    "slug": "fleet-managers-rethinking-work-ready-4x4s",
+    "category": "News",
+    "excerpt": "A more cost-conscious operating environment is changing what qualifies as a smart work vehicle.",
+    "featuredImage": "images/news/news-004.jpg",
+    "date": "2026-08-12",
+    "author": "Daniel Price",
+    "readTime": "7 min read",
+    "content": [
+      "Many fleet operators are now balancing long-term value against immediate capability. The most attractive vehicles are those that reduce downtime, reduce fuel consumption and still maintain genuine utility.",
+      "This has made smaller 4x4s and highly specified utes more appealing, especially when the business case can justify a better trim level rather than a bare-bones commercial spec."
+    ],
+    "tags": ["fleet", "business", "compliance"],
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "news-005",
+    "title": "Why the next generation of off-road buyers is demanding better charging and power systems",
+    "slug": "next-generation-off-road-buyers-demand-better-power-systems",
+    "category": "News",
+    "excerpt": "Electric accessories, dual-battery setups and more reliable electrical architecture are becoming the new baseline.",
+    "featuredImage": "images/news/news-005.jpg",
+    "date": "2026-08-08",
+    "author": "Emma Morris",
+    "readTime": "5 min read",
+    "content": [
+      "The modern 4x4 build is increasingly defined by the power system as much as the chassis. Recovery gear, fridges, lighting and camera setups all add load, which makes efficient power management essential.",
+      "This is driving more buyers toward integrated electrical systems, better battery management and cleaner installation practices."
+    ],
+    "tags": ["electrical", "camping", "power"],
+    "featured": false,
+    "published": true
+  }
+]

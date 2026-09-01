@@ -1,0 +1,78 @@
+[
+  {
+    "id": "guide-001",
+    "title": "How to choose the right touring setup for Australia",
+    "slug": "how-to-choose-right-touring-setup-australia",
+    "category": "Guides",
+    "excerpt": "A practical guide to matching your setup to your travels, terrain and family needs.",
+    "featuredImage": "images/guides/guide-001.jpg",
+    "date": "2026-08-13",
+    "content": [
+      "The ideal touring setup is not the most expensive one; it is the one that matches your destination, driving style and payload requirements. A good setup balances comfort, capability and reliability.",
+      "Start by focusing on how often you travel, what kind of roads you use and what equipment you need to support the trip. This determines whether your priorities are payload, touring comfort, improved suspension or better recovery gear.",
+      "A thoughtful build is easier to live with and easier to trust when the road gets rough."
+    ],
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "guide-002",
+    "title": "The 4x4 buying checklist for first-time off-road buyers",
+    "slug": "4x4-buying-checklist-first-time-off-road-buyers",
+    "category": "Guides",
+    "excerpt": "A beginner-friendly approach to selection, inspection and realistic expectations.",
+    "featuredImage": "images/guides/guide-002.jpg",
+    "date": "2026-08-03",
+    "content": [
+      "Before buying a 4x4, it helps to decide what kind of off-road use you actually plan on doing. Many buyers are attracted by rugged styling, but the real challenge is matching a vehicle to actual terrain use and day-to-day needs.",
+      "Look closely at drivetrain types, towing ratings, ride height, feature sets and aftermarket support. Thinking ahead allows a smarter purchase and fewer expensive mistakes later."
+    ],
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "guide-003",
+    "title": "What to look for in a reliable used 4x4 ute",
+    "slug": "what-to-look-for-reliable-used-4x4-ute",
+    "category": "Guides",
+    "excerpt": "The key inspection points that help you buy confidence instead of surprises.",
+    "featuredImage": "images/guides/guide-003.jpg",
+    "date": "2026-07-25",
+    "content": [
+      "Buying a used 4x4 ute is often about understanding how it was used and maintained. Corrosion, neglected servicing and poorly executed aftermarket work can quietly become expensive problems.",
+      "A careful inspection should cover suspension wear, tyre condition, service history, towing accessories, rust and any evidence of heavy off-road abuse. It is also worth checking whether the vehicle has been used for hard touring or commercial tasks that affected reliability."
+    ],
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "guide-004",
+    "title": "Best family-friendly touring upgrades for long weekend escapes",
+    "slug": "best-family-friendly-touring-upgrades-long-weekend-escapes",
+    "category": "Guides",
+    "excerpt": "Small, useful improvements that make remote travel far easier without overbuilding the vehicle.",
+    "featuredImage": "images/guides/guide-004.jpg",
+    "date": "2026-07-12",
+    "content": [
+      "The best touring upgrades are the ones that improve comfort, convenience and safety without creating too much complexity. Storage, charging and robust recovery equipment are usually high-priority areas.",
+      "For families, the right upgrades often include a fridge setup, cleaner cargo management and better access to power. These changes make trips more comfortable and reduce decision fatigue at camp."
+    ],
+    "featured": false,
+    "published": true
+  },
+  {
+    "id": "guide-005",
+    "title": "A beginner’s guide to choosing tow capacity for your next rig",
+    "slug": "beginner-guide-choosing-tow-capacity-next-rig",
+    "category": "Guides",
+    "excerpt": "Matching a vehicle to your trailer needs is one of the most important buying decisions you can make.",
+    "featuredImage": "images/guides/guide-005.jpg",
+    "date": "2026-06-27",
+    "content": [
+      "Towing capacity is not just about the maximum number on a sticker. Real towing requires careful attention to payload, axle ratings, braking performance and the weight of your setup.",
+      "If you plan to tow a camper, boat or work trailer, the most important question is whether your vehicle and setup remain stable and safe at realistic load. That is a far better guide than chasing a headline figure alone."
+    ],
+    "featured": false,
+    "published": true
+  }
+]
