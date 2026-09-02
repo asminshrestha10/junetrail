@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JUNE TRAIL Admin</title>
+    <meta
+      name="description"
+      content="Secure admin dashboard for managing JUNE TRAIL content through a serverless backend."
+    />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body class="admin-body">
+    <div id="auth-screen" class="auth-screen">
+      <div class="auth-card">
+        <p class="eyebrow">Secure access</p>
+        <h1>JUNE TRAIL ADMIN</h1>
+        <form id="login-form" class="login-form">
+          <label>
+            Username
+            <input id="username" name="username" type="text" autocomplete="username" required />
+          </label>
+          <label>
+            Password
+            <input id="password" name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <button class="primary-button" type="submit">Login</button>
+        </form>
+        <p id="auth-message" class="auth-message" role="status"></p>
+      </div>
+    </div>
+
+    <div id="admin-shell" class="admin-shell hidden">
+      <aside class="admin-sidebar">
+        <div class="brand-block">
+          <div class="brand-mark">JT</div>
+          <div>
+            <p class="eyebrow">Content management</p>
+            <h1>JUNE TRAIL ADMIN</h1>
+          </div>
+        </div>
+
+        <nav class="admin-nav" aria-label="Admin sections">
+          <button class="nav-tab active" data-section="dashboard" type="button">Dashboard</button>
+          <button class="nav-tab" data-section="news" type="button">News</button>
+          <button class="nav-tab" data-section="blogs" type="button">Blogs</button>
+          <button class="nav-tab" data-section="vehicles" type="button">Vehicles</button>
+          <button class="nav-tab" data-section="products" type="button">Products</button>
+          <button class="nav-tab" data-section="guides" type="button">Guides</button>
+          <button class="nav-tab" data-section="engineering" type="button">Engineering</button>
+        </nav>
+
+        <div class="security-note">
+          <strong>Security note</strong>
+          <p>
+            This admin uses a secure server-side backend and GitHub App authentication.
+            No GitHub token is stored in the browser.
+          </p>
+        </div>
+      </aside>
+
+      <main class="admin-main">
+        <header class="admin-topbar">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2 id="section-heading">Dashboard</h2>
+          </div>
+          <div class="topbar-actions">
+            <button id="add-new-button" class="primary-button" type="button">+ Add New</button>
+            <button id="save-to-github-button" class="secondary-button" type="button">Save to GitHub</button>
+            <button id="logout-button" class="secondary-button" type="button">Logout</button>
+          </div>
+        </header>
+
+        <section id="dashboard-view" class="panel active-panel">
+          <div id="content-summary" class="summary-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="list-view" class="panel">
+          <div class="list-topbar">
+            <h3 id="list-title">News</h3>
+            <button id="list-add-button" class="primary-button small" type="button">+ Add New</button>
+          </div>
+          <div id="listing-container" class="listing-container" aria-live="polite"></div>
+        </section>
+
+        <section id="editor-view" class="panel">
+          <form id="content-form" class="content-form">
+            <div class="form-header">
+              <h3 id="form-heading">Edit content</h3>
+              <div class="form-actions">
+                <button id="cancel-edit" class="secondary-button" type="button">Cancel</button>
+                <button class="primary-button" type="submit">Save</button>
+              </div>
+            </div>
+
+            <div id="form-fields" class="form-grid"></div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
