@@ -10,7 +10,11 @@ const sectionLabels = {
   engineering: 'Engineering'
 };
 
-const ADMIN_API_BASE = window.JUNETRAIL_ADMIN_API || 'http://127.0.0.1:8787';
+const ADMIN_API_BASE = window.JUNETRAIL_ADMIN_API || (
+  window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
+    ? 'http://127.0.0.1:8787'
+    : 'https://junetrail-admin-worker.asminshrestha10.workers.dev'
+);
 
 const adminState = {
   selectedSection: 'dashboard',
