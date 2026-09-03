@@ -454,7 +454,7 @@ function openEditor(section, itemId) {
   const existingItem = entries.find((entry) => String(entry.id || entry.slug) === String(itemId));
   const targetItem = existingItem || createBlankItem(section, itemId);
 
-  adminState.selectedId = targetItem.id || targetItem.slug || itemId;
+  adminState.selectedId = existingItem ? (targetItem.id || targetItem.slug || itemId) : null;
 
   document.getElementById('form-heading').textContent = existingItem ? 'Edit content' : 'Add new content';
   document.getElementById('form-fields').innerHTML = buildFormFields(section, targetItem);
