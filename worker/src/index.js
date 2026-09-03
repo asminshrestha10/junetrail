@@ -1,3 +1,19 @@
+/**
+ * @typedef {Object} Env
+ * @property {string} ADMIN_USERNAME Cloudflare Worker variable containing the admin username.
+ * @property {string} ADMIN_PASSWORD Cloudflare Worker secret containing the admin password.
+ * @property {string} SESSION_SECRET Cloudflare Worker secret used to sign sessions.
+ * @property {string} ALLOWED_ORIGINS Comma-separated allowed browser origins.
+ * @property {string} [GITHUB_APP_ID]
+ * @property {string} [GITHUB_INSTALLATION_ID]
+ * @property {string} [GITHUB_APP_PRIVATE_KEY]
+ * @property {string} [REPO_OWNER]
+ * @property {string} [REPO_NAME]
+ * @property {string} [REPO_BRANCH]
+ * @property {string} [CONTENT_TYPES]
+ * @property {string} [APP_ENV]
+ */
+
 const CONTENT_MAP = {
   news: 'data/news.json',
   blogs: 'data/blogs.json',
@@ -199,8 +215,50 @@ async function getGitHubAccessToken(env) {
 }
 
 function pemToBinary(pem) {
-  const trimmed = pem.replace('-----BEGIN PRIVATE KEY-----', '').replace('-----END PRIVATE KEY-----', '').replace(/\s+/g, '');
-  return Uint8Array.from(atob(trimmed), (char) => char.charCodeAt(0));
+  const isPkcs1 = pem.includes('-----BEGIN RSA PRIVATE KEY-----');
+  const header = isPkcs1 ? '-----BEGIN RSA PRIVATE KEY-----' : '-----BEGIN PRIVATE KEY-----';
+  const footer = isPkcs1 ? '-----END RSA PRIVATE KEY-----' : '-----END PRIVATE KEY-----';
+  const base64 = pem.replace(header, '').replace(footer, '').replace(/\s+/g, '');
+  const keyBytes = Uint8Array.from(atob(base64), (char) => char.charCodeAt(0));
+
+  if (!isPkcs1) {
+    return keyBytes;
+  }
+
+  const algorithmIdentifier = Uint8Array.from([
+    0x30, 0x0d,
+    0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01,
+    0x05, 0x00
+  ]);
+  const version = Uint8Array.from([0x02, 0x01, 0x00]);
+  const privateKey = derEncode(0x04, keyBytes);
+  return derEncode(0x30, concatBytes(version, algorithmIdentifier, privateKey));
+}
+
+function derEncode(tag, value) {
+  const length = value.length;
+  const lengthBytes = length < 128
+    ? Uint8Array.from([length])
+    : Uint8Array.from([0x80 | Math.ceil(Math.log2(length + 1) / 8), ...numberToBytes(length)]);
+  return concatBytes(Uint8Array.from([tag]), lengthBytes, value);
+}
+
+function numberToBytes(value) {
+  const bytes = [];
+  for (let remaining = value; remaining > 0; remaining = Math.floor(remaining / 256)) {
+    bytes.unshift(remaining & 0xff);
+  }
+  return bytes.length ? bytes : [0];
+}
+
+function concatBytes(...arrays) {
+  const result = new Uint8Array(arrays.reduce((total, array) => total + array.length, 0));
+  let offset = 0;
+  for (const array of arrays) {
+    result.set(array, offset);
+    offset += array.length;
+  }
+  return result;
 }
 
 async function getGitHubFile(path, env) {
@@ -432,6 +490,10 @@ async function handleSave(request, env) {
 }
 
 export default {
+  /**
+   * @param {Request} request
+   * @param {Env} env
+   */
   async fetch(request, env) {
     const corsOption = ensureAllowedOrigin(request, env);
     if (corsOption) {
