@@ -135,7 +135,7 @@ input {
 }
 
 .feature-image {
-  min-height: 440px;
+  min-height: 800px;
   background-size: cover;
   background-position: center;
 }
