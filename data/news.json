@@ -82,17 +82,22 @@
   },
   {
     "id": "news-002",
-    "title": "Ute buyers are now choosing towing and payload over pure diesel output",
+    "title": "The Trition Raider",
     "slug": "ute-buyers-choosing-towing-payload",
     "category": "News",
     "excerpt": "A growing share of buyers are prioritising real-world capability, smoother on-road manners and genuine work utility.",
-    "featuredImage": "images/news/news-002.jpg",
+    "featuredImage": "images/news/Tritionraider.jpeg",
     "date": "2026-08-22",
     "author": "Aiden Ross",
     "readTime": "4 min read",
     "content": [
-      "The utility market has seen a subtle but important shift as buyers ask tougher questions about towing capacity, payload balance and comfort. Those features matter more than headline horsepower for everyday owners who use a ute for both work and travel.",
-      "Dealer conversations increasingly centre on chassis refinement, safety technology and practical accessories. Buyers are also more aware of the long-term cost of running a ute, from servicing to fuel use and compliance requirements."
+      "A standard 4WD platform transformed into an up-spec off-road vehicle, with modifications focused on improving traction, ground clearance, handling and towing capability.",
+        "-SSLL 4WD + 7 Drive Modes — Improved traction across different terrains",
+        "-+25 mm Ground Clearance* — Greater approach and departure capability",
+        "-33% Reduction in Weight Transfer — Improved handling, control and rough-road comfort",
+        "-3.5 Tonne Towing Capacity — Built for heavier towing requirements",
+        "These upgrades demonstrate how targeted engineering and suspension changes can significantly enhance an already capable 4WD platform.",
+      "Specifications and improvements may vary depending on vehicle configuration and modification package."
     ],
     "tags": ["utes", "towing", "payload"],
     "featured": false,
